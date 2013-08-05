@@ -1,0 +1,4 @@
+add_lunch_combo full_evita-codefirex
+add_lunch_combo full_evita-eng
+add_lunch_combo full_evita-userdebug
+

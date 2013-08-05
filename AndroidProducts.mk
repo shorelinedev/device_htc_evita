@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_evita.mk
+    $(LOCAL_DIR)/full_evita.mk
