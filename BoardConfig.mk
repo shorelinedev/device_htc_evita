@@ -40,6 +40,9 @@ TARGET_KERNEL_CONFIG := elite_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/evita/bluetooth
 
+# Camera
+USE_DEVICE_SPECIFIC_CAMERA := true
+
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
 
