@@ -32,7 +32,6 @@ TARGET_BOARD_INFO_FILE ?= device/htc/evita/board-info.txt
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := evita
-TARGET_ARM_EABI_VERSION := 4.8
 
 # Kernel
 TARGET_KERNEL_CONFIG := elite_defconfig
