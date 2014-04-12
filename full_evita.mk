@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/htc/evita/device_evita.mk)
 
 # Get the long list of APNs
-PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+#PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/eos/config/gsm.mk)
@@ -37,7 +37,7 @@ $(call inherit-product, vendor/eos/config/common_full_phone.mk)
 
 # Copy Bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/eos/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
+    vendor/eos/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
 
 
 # Set those variables here to overwrite the inherited values.
