@@ -67,11 +67,6 @@ PRODUCT_COPY_FILES += \
     device/htc/evita/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     device/htc/evita/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc
 
-# Recovery
-PRODUCT_COPY_FILES += \
-    device/htc/evita/rootdir/etc/fstab.qcom:recovery/root/fstab.qcom \
-    device/htc/evita/rootdir/etc/twrp.fstab:recovery/root/etc/twrp.fstab
-
 # NFC
 PRODUCT_PACKAGES += \
     libnfc \
