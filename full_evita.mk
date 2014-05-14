@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_NAME := full_evita
 PRODUCT_DEVICE := evita
 PRODUCT_BRAND := htc
-PRODUCT_MANUFACTURER := htc
+PRODUCT_MANUFACTURER := HTC
 PRODUCT_MODEL := One Xl
 
 # Set build fingerprint / ID / Product Name etc.
