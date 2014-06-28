@@ -73,6 +73,12 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
+# F2FS
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+
 # Torch
 PRODUCT_PACKAGES += \
     Torch
