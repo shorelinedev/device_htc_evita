@@ -27,9 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from m7tmo device
 $(call inherit-product, device/htc/evita/device_evita.mk)
 
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/eos/config/gsm.mk)
-
+# Inherit from EOS vendor
 $(call inherit-product, vendor/eos/config/common_full_phone.mk)
 
 # Copy Bootanimation
