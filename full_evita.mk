@@ -27,13 +27,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from m7tmo device
 $(call inherit-product, device/htc/evita/device_evita.mk)
 
-# Inherit from EOS vendor
-$(call inherit-product, vendor/eos/config/common_full_phone.mk)
-
-# Copy Bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/eos/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
-
+# Inherit from ShoreDroid
+$(call inherit-product, vendor/shoredroid/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_evita
